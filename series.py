@@ -1,15 +1,13 @@
 import math
 
+# -5,10,-15,20,-25
+
 def print_series(n):
 
     # enter the number of element in series
 
-    first_num = -5
-
-    for i in range(n):
-        
-        print(first_num)
-        first_num +=5
+    for i in range(1, n+1):
+        print( int( math.pow( -1 , i) * 5 * i))
 
     return 
 
